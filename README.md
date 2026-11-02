@@ -1,4 +1,5 @@
 To the Director,
+
 The correct average revenue for West customers is 814.37 dollars, and the higher number came from a query that joined customers to orders, which counted each customer once for every order they placed. Since customers with more orders also bring in more revenue, they were counted many more times than everyone else and pushed the average up by roughly one and a half times, even though revenue is a customer-level number that should be averaged with one row per customer.
 
 As for the program, a simple comparison makes it look like it adds about 208.64 dollars per customer, but most of that gap exists because the West already had larger accounts, and once account size is accounted for the effect drops to about 21.93 dollars, close to the true 20 dollars. The program does help, just much less than the first comparison suggested. Adding support tickets as a control pushed the estimate down to −30.62 dollars, because the program itself changes how many tickets customers file, so it should not be used as a control.
